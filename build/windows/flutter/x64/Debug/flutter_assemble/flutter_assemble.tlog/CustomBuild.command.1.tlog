@@ -1,0 +1,28 @@
+^D:\PROJECT\BMICALCULATOR\BUILD\WINDOWS\CMAKEFILES\12884DE7E48D76AA9982CB3405BEC8C7\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\jamal\Desktop\flutter PROJECT_DIR=D:\project\bmicalculator FLUTTER_ROOT=C:\Users\jamal\Desktop\flutter FLUTTER_EPHEMERAL_DIR=D:\project\bmicalculator\windows\flutter\ephemeral PROJECT_DIR=D:\project\bmicalculator FLUTTER_TARGET=D:\project\bmicalculator\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\project\bmicalculator\.dart_tool\package_config.json C:/Users/jamal/Desktop/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECT\BMICALCULATOR\BUILD\WINDOWS\CMAKEFILES\015A480E60F89313C51C953C72C40607\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECT\BMICALCULATOR\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/project/bmicalculator/windows -BD:/project/bmicalculator/build/windows --check-stamp-file D:/project/bmicalculator/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

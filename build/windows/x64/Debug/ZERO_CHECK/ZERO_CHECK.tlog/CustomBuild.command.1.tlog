@@ -1,0 +1,10 @@
+^D:\PROJECT\BMICALCULATOR\BUILD\WINDOWS\CMAKEFILES\D222B0ADD6E68598B1396ED1F665A62E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/project/bmicalculator/windows -BD:/project/bmicalculator/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/project/bmicalculator/build/windows/bmicalculator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

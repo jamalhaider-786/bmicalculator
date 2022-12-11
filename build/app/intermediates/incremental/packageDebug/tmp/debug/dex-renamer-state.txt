@@ -1,0 +1,4 @@
+#Wed Oct 26 07:33:09 PDT 2022
+base.0=D\:\\project\\bmicalculator\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
